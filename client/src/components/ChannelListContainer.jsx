@@ -1,6 +1,6 @@
 import React from 'react';
 import { ChannelList, useChatContext } from 'stream-chat-react'
-import cookies from 'universal-cookie'
+import Cookies from 'universal-cookie'
 
 import { ChannelSearch, TeamChannelList, TeamChannelPreview } from './'
 import HospitalIcon from '../assets/hospital.png'

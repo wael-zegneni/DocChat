@@ -13,7 +13,7 @@ app.use(express.json()) // allows us to pass JSON payloads from the front to bac
 app.use(express.urlencoded())
 
 app.get('/', (req, res) => {
-    res.send('Hello, World!')
+    res.send('Hello, World!!')
 })
 
 app.use('/auth', authRoutes);
